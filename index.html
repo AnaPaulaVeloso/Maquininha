@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maquininha - Produto</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="nav_logo">
+        <img
+          src="img/claro-logo1-removebg-preview.png"
+          alt="Claro Logo"
+          id="nav_logo_img"
+        />
+      </div>
+      <ul id="nav_list">
+        <li class="nav-item">
+          <a href="#home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="#plano">Planos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contato">Contato</a>
+        </li>
+      </ul>
+      <div id="button">
+        <button class="btn-default">Assine</button>
+      </div>
+    </nav>
+
+    <main id="contexto">
+      <section id="home">
+        <div id="cta_home">
+          <div id="maqui_img">
+            <img
+              src="img/como-adquirir-maquina-pessoa-fisica-removebg-preview.png"
+              alt="Máquina Pay"
+              id="maq_img"
+            />
+          </div>
+          <div class="text">
+            <h1 class="title">
+              Claro<span>Pay</span>
+            </h1>
+            <p class="description">
+              Explore as melhores soluções para atender às suas necessidades. Encontre as maquininhas de cartão ideais para seu negócio.
+            </p>
+          </div>
+        </div>
+      </section>
+      <br /><br /><br />
+      <section id="cliente">
+        <h2 class="section-title">Clientes</h2>
+        <p class="description">
+          Clique na imagem para analisar o perfil e ver o produto que melhor
+          corresponde para o negócio.
+        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/perfil2.jpg" class="card-img-top" alt="Gabriel" />
+                <div class="card-body">
+                  <p class="card-text">Gabriel</p>
+                  <button class="btn"  onclick="window.location.href='cliente1.html';" >Ver Perfil</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/Perfil1.jpg" class="card-img-top" alt="Ana Paula" />
+                <div class="card-body">
+                  <p class="card-text">Ana Paula</p>
+                  <button class="btn" onclick="window.location.href='cliente3.html';" >Ver Perfil</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/perfil3.png" class="card-img-top" alt="André" />
+                <div class="card-body">
+                  <p class="card-text">André</p>
+                  <button class="btn" onclick="window.location.href='cliente2.html';" >Ver Perfil</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
